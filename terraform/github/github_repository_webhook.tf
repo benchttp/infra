@@ -1,6 +1,6 @@
 resource "github_repository_webhook" "discord_report" {
-  for_each   = toset(var.repositories)
-  repository = each.value
+  for_each   = var.repositories
+  repository = each.value.name
   active     = true
   events = [
     "push",
