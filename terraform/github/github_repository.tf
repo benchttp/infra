@@ -1,5 +1,5 @@
 resource "github_repository" "repositories" {
-  for_each      = var.repositories
+  for_each      = local.repositories
   name          = each.value.name
   description   = each.value.description
   has_downloads = true
