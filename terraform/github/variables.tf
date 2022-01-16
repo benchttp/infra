@@ -30,7 +30,7 @@ locals {
     },
     "testing_server" = {
       name        = "testing-server"
-      description = "Local HTTP server to run benchmarks on configurable endpoints."
+      description = "Local HTTP server exposing configurable endpoints to be benchmarked for testing purposes."
     },
   }
 
