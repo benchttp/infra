@@ -33,4 +33,6 @@ locals {
       description = "Local HTTP server to run benchmarks on configurable endpoints."
     },
   }
+
+  main_branch = "main"
 }
