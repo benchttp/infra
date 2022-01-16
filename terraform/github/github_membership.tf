@@ -18,6 +18,11 @@ resource "github_membership" "gregory_albouy" {
   role     = "admin"
 }
 
+resource "github_membership" "hicham_sbihi" {
+  username = "hichamsbihi"
+  role     = "member"
+}
+
 resource "github_membership" "kerian_pelat" {
   username = "nartydev"
   role     = "admin"
