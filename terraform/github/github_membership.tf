@@ -3,6 +3,11 @@ resource "github_membership" "alex_mongeot" {
   role     = "admin"
 }
 
+resource "github_membership" "benchttp_bot" {
+  username = "benchttp-bot"
+  role     = "admin"
+}
+
 resource "github_membership" "clara_gonnon" {
   username = "c1-ra"
   role     = "admin"
