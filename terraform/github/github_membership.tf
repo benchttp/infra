@@ -33,6 +33,11 @@ resource "github_membership" "kerian_pelat" {
   role     = "admin"
 }
 
+resource "github_membership" "pagbrl" {
+  username = "pagbrl"
+  role     = "member"
+}
+
 resource "github_membership" "thomas_moreira" {
   username = "moreirathomas"
   role     = "admin"
