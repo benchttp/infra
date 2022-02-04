@@ -25,7 +25,7 @@ resource "github_membership" "gregory_albouy" {
 
 resource "github_membership" "hicham_sbihi" {
   username = "hichamsbihi"
-  role     = "member"
+  role     = "admin"
 }
 
 resource "github_membership" "kerian_pelat" {
