@@ -32,6 +32,10 @@ locals {
       name        = "cobaye"
       description = "Local HTTP server exposing configurable endpoints to be benchmarked for testing purposes."
     },
+    "worker" = {
+      name        = "worker"
+      description = "Remote worker to process benchmark reports."
+    },
   }
 
   main_branch = "main"
