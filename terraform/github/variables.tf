@@ -29,7 +29,7 @@ locals {
       description = "Front-end application for benchttp users."
     },
     "testing_server" = {
-      name        = "testing-server"
+      name        = "cobaye"
       description = "Local HTTP server exposing configurable endpoints to be benchmarked for testing purposes."
     },
   }
