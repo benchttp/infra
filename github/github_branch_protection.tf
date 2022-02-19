@@ -6,7 +6,7 @@ resource "github_branch_protection" "shared_rules" {
   allows_deletions = false
 
   required_pull_request_reviews {
-    required_approving_review_count = 2
-    dismiss_stale_reviews           = true
+    required_approving_review_count = 1
+    dismiss_stale_reviews           = false
   }
 }
