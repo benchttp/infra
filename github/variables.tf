@@ -12,7 +12,7 @@ locals {
       name        = "server"
       description = "REST API for benchttp."
     },
-    "testing_server" = {
+    "cobaye" = {
       name        = "cobaye"
       description = "Local HTTP server exposing configurable endpoints to be benchmarked for testing purposes."
     },
