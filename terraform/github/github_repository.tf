@@ -9,6 +9,6 @@ resource "github_repository" "repositories" {
   has_wiki      = true
 
   allow_squash_merge = true
-  allow_rebase_merge = true
+  allow_rebase_merge = false
   allow_merge_commit = false
 }
