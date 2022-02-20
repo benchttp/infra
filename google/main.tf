@@ -25,3 +25,10 @@ module "cloudfunction" {
   name        = local.cloudfunction_name
   source_dir  = var.cloudfunction_source_dir
 }
+
+module "firestore" {
+  source = "./modules/firestore"
+
+  project_id  = var.project_id
+  location_id = local.region
+}
