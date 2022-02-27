@@ -1,4 +1,9 @@
 # Terraform
-env.tfvars
-.terraform/
-terraform.tfstate*
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Build
+**/dist/
