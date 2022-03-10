@@ -43,13 +43,13 @@ terraform init
 Plan the infrastructure without actually making any real world changes (i.e. a dry run):
 
 ```sh
-make plan
+terraform plan
 ```
 
 Apply the infrastructure and introduce changes to the currently deployed system:
 
 ```sh
-make apply
+terraform apply
 ```
 
 Refer to the [Terraform docs](https://www.terraform.io/docs) for further documentation.
